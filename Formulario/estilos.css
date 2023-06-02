@@ -1,0 +1,170 @@
+css
+body{
+    background-color:rgb(138, 137, 137);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 10%;
+    text-align: center;
+    
+}
+
+.formulario{
+    width: 340px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 55px;
+    box-shadow: 0 0 7px rgb(0, 0, 0.2);
+    border-radius: 5px;
+    text-align: initial;
+}
+
+
+
+.login-input{
+    display: flex;
+    border-radius: 5px;
+    margin-left: 0;
+    min-width: 100%;
+    text-align: left;
+    border: 1px solid #878f96;
+    max-width: fit-content;
+    margin-bottom: 15px;
+    padding: 10px 0 10px 0;
+}
+
+.login-input > input{
+    font-size: 15px;
+    border-style: none;
+}
+
+.login-input > input:focus{
+    outline: none;
+}
+
+.lf{
+    text-align: center;
+}
+
+.container > label{
+    font-size: 40px;
+    color: #485357;
+}
+
+.bandera{
+    background-color: #27a844;
+    border-radius: 5px;
+    max-width: fit-content;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.imgb{
+    max-width: 28px;
+}
+
+.Enviar-Cancelar{
+    text-align: initial;
+}
+
+#gs{
+    display: block;
+}
+
+#cancelar{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+#aceptar{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #878f96;
+    border: 1px solid #878f96;
+}
+
+#pcc{
+    font-size: 17px;
+    color: #878f96;
+}
+
+#gus{
+    padding: fit-content;
+    border-radius: 0px 5px 5px 0px;
+    background-color: transparent;
+    color: #27a844;
+    border: 1px solid #27a844;
+}
+
+.Gustos{
+    border-radius: 5px;
+    border:  1px solid #878f96;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin:auto;
+}
+
+.tabla{
+    border-radius: 2px;
+    border: 1px solid #878f96;
+    display: flex;
+    word-break: break-all;
+}
+
+.Gustos-div{
+    display: flex;
+    border: none;
+}
+
+.Gustos-div > input{
+    border: 1px solid #878f96;
+    border-radius: 5px 0 0 5px;
+    padding: 10px 0px 10px 0px;
+    max-width: fit-content;
+}
+
+.tabla > td{
+    color: #afb0b3;
+    border: 1px solid #878f96;
+}
+
+.tabla > tbody > tr > td{
+    color: #afb0b3;
+    border: 1px solid #878f96;
+}
+
+.tabla-c > th{
+    color: #afb0b3;
+    border: 1px solid #878f96;
+}
+
+.fas {
+    width: 40%;
+    color:#878f96;
+    text-align: right;
+}
+
+#tbl{
+    text-align: center;
+}
+
+#edtxt{
+    word-break: keep-all;
+}
+
+.editar{
+    color: #3c4cd4;
+    word-break: keep-all;
+}

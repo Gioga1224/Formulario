@@ -1,0 +1,22 @@
+css 
+
+body{
+    background-color: url(../documento/gris.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultado {
+
+    width: 240px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgba(4, 153, 252, 0.5);
+    text-align: initial;
+    padding: 50px 55px;
+    box-shadow: 0 0 7px rgb(0, 0, 0.2);
+    border-radius: 5px;
+}
